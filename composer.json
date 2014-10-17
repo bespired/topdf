@@ -18,6 +18,9 @@
     "scripts": {
         "post-install-cmd": [
             "php artisan provider:add bespired/topdf"
+        ],
+        "post-update-cmd": [
+            "php artisan provider:add bespired/topdf"
         ]
     },
     "minimum-stability": "stable"
