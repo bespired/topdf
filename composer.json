@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-0": {
-            "Centagon\\ToPdf": "src/"
+            "Bespired\\ToPdf": "src/"
         }
     },
     "scripts": {
         "post-install-cmd": [
-            "php artisan provider:add centagon/topdf"
+            "php artisan provider:add bespired/topdf"
         ]
     },
     "minimum-stability": "stable"
